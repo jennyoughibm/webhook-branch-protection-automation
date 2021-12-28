@@ -1,4 +1,4 @@
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
 /usr/local/bin/ruby -I /usr/local/lib/ruby/2.6.0 -r ./siteconf20200429-12-13hiig0.rb extconf.rb
 checking for ffi_call() in -lffi... yes
 checking for ffi_closure_alloc()... yes
@@ -12,10 +12,10 @@ checking for ffi_prep_raw_closure()... yes
 creating extconf.h
 creating Makefile
 
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
 make "DESTDIR=" clean
 
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
 make "DESTDIR="
 compiling AbstractMemory.c
 compiling ArrayType.c
@@ -42,6 +42,6 @@ compiling Variadic.c
 compiling ffi.c
 linking shared-object ffi_c.so
 
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
 make "DESTDIR=" install
 /usr/bin/install -c -m 0755 ffi_c.so ./.gem.20200429-12-h6bxeg

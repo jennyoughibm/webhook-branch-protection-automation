@@ -1,4 +1,4 @@
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
 /usr/local/bin/ruby -I /usr/local/lib/ruby/2.6.0 -r ./siteconf20200429-12-ru9uof.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
@@ -8,10 +8,10 @@ checking for TLS_server_method() in openssl/ssl.h... yes
 checking for SSL_CTX_set_min_proto_version in openssl/ssl.h... yes
 creating Makefile
 
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
 make "DESTDIR=" clean
 
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
 make "DESTDIR="
 compiling http11_parser.c
 compiling io_buffer.c
@@ -52,6 +52,6 @@ cc1: warning: unrecognized command line option '-Wno-parentheses-equality'
 cc1: warning: unrecognized command line option '-Wno-constant-logical-operand'
 linking shared-object puma/puma_http11.so
 
-current directory: /data/apps/changelogger/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
+current directory: /data/apps/branchprotection/vendor/bundle/ruby/2.6.0/gems/puma-4.3.3/ext/puma_http11
 make "DESTDIR=" install
 /usr/bin/install -c -m 0755 puma_http11.so ./.gem.20200429-12-12xuhhk/puma

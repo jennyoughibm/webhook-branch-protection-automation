@@ -1,11 +1,11 @@
 #!/usr/bin/env pwsh
 
-$APP_CONTAINER = docker run --rm -it -d -p 3000 --name changelogger --mount type=bind,source="$(pwd)"/changelogger,target=/data/apps/changelogger changelogger:latest
+$APP_CONTAINER = docker run --rm -it -d -p 3000 --name branchprotection --mount type=bind,source="$(pwd)"/branchprotection,target=/data/apps/branchprotection branchprotection:latest
 
 $proxy_running = docker ps -q -f name=proxy
 if(!$proxy_running)
 {
-  docker run -it -d -p 4040 --name proxy --link changelogger:http wernight/ngrok ngrok http http:3000
+  docker run -it -d -p 4040 --name proxy --link branchprotection:http wernight/ngrok ngrok http http:3000
 }
 
 Start-Sleep -Seconds 3

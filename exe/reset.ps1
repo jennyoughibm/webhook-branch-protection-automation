@@ -2,5 +2,5 @@
 
 docker stop proxy
 docker rm proxy
-docker stop changelogger
-docker rm changelogger
+docker stop branchprotection
+docker rm branchprotection

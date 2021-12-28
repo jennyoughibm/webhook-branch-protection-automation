@@ -2,10 +2,10 @@ FROM ruby:2.6.3
 
 RUN apt-get update -qq && apt-get install -y build-essential
 
-ENV PROJECT_PATH /data/apps/changelogger
+ENV PROJECT_PATH /data/apps/branchprotection
 RUN mkdir -p $PROJECT_PATH
 
-WORKDIR /data/apps/changelogger
+WORKDIR /data/apps/branchprotection
 
 ADD branchprotection ./
 

@@ -1,4 +1,4 @@
-current directory: /Users/johntzikas/projects/satelite-2020-webhooks/changelogger/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+current directory: /Users/johntzikas/projects/satelite-2020-webhooks/branchprotection/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
 /Users/johntzikas/.rbenv/versions/2.6.3/bin/ruby -I /Users/johntzikas/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20200429-60785-wfkqvs.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
@@ -11,10 +11,10 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-current directory: /Users/johntzikas/projects/satelite-2020-webhooks/changelogger/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+current directory: /Users/johntzikas/projects/satelite-2020-webhooks/branchprotection/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
 make "DESTDIR=" clean
 
-current directory: /Users/johntzikas/projects/satelite-2020-webhooks/changelogger/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+current directory: /Users/johntzikas/projects/satelite-2020-webhooks/branchprotection/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
 make "DESTDIR="
 compiling bytebuffer.c
 compiling monitor.c
@@ -251,6 +251,6 @@ In file included from nio4r_ext.c:7:
 compiling selector.c
 linking shared-object nio4r_ext.bundle
 
-current directory: /Users/johntzikas/projects/satelite-2020-webhooks/changelogger/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+current directory: /Users/johntzikas/projects/satelite-2020-webhooks/branchprotection/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
 make "DESTDIR=" install
 /usr/local/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20200429-60785-xv4uy7

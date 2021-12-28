@@ -25,3 +25,4 @@ puma (4.3.3) lib/puma/server.rb:472:in `process_client'
 puma (4.3.3) lib/puma/server.rb:328:in `block in run'
 puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
 method=POST path=/ format=*/* controller=WebhooksController action=create status=204 duration=0.27 view=0.00
+method=POST path=/ format=*/* controller=WebhooksController action=create status=422 duration=1.73 view=0.25
