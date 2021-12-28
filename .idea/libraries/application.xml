@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="application">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/branchprotection/vendor/bundle/ruby/2.6.0/gems/mimemagic-0.3.4/test/files/application.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
