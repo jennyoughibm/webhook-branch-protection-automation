@@ -1,0 +1,32 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+.idea/
+
+*.swp
+*.swo
+
+# Ignore the default SQLite database.
+branchprotection/db/*.sqlite3
+branchprotection/db/*.sqlite3-journal
+branchprotection/db/*.sqlite3-*
+/branchprotection/.env
+
+# Ignore all logfiles and tempfiles.
+/branchprotection/log/*
+/branchprotection/tmp/*
+!branchprotection/log/.keep
+!branchprotection/tmp/.keep
+
+# Ignore uploaded files in development.
+branchprotection/storage/*
+!branchprotection/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+branchprotection/config/master.key
+branchprotection/config/credentials/development*
