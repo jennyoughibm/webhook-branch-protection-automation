@@ -6,7 +6,7 @@ class WebhooksController < ApplicationController
 
   def create
 
-    return error("not created") unless created?
+#     return error("not created") unless created?
     create_branch_protection
     create_issue_for_branch_protection
     notification_subscription
@@ -31,7 +31,7 @@ class WebhooksController < ApplicationController
 
  def verify_event_type!
    type = request.headers["HTTP_X_GITHUB_EVENT"]
-   return if type == "create"
+   return if type == "create" or type == "ping"
    error("unallowed event type: #{type}")
  end
 

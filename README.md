@@ -9,7 +9,7 @@ This project demostrate how to use Webhook and GitHub rest API to automate branc
 clone the repo to your local machine
 
 ```
-git clone git@github.com:<username>/webhooks-with-rest.git --config core.autocrlf=input
+git clone git@github.com:<username>/webhook-branch-protection-automation.git --config core.autocrlf=input
 ```
 
 ## Bootstrap
