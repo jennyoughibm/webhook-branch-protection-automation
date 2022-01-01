@@ -5,11 +5,9 @@ class WebhooksController < ApplicationController
  before_action :verify_event_type!
 
   def create
-
-#     return error("not created") unless created?
     create_branch_protection
-    create_issue_for_branch_protection
     notification_subscription
+#     create_issue_for_branch_protection
 
     puts "Webhook successfully received!!!"
     WEBHOOK_HEADERS.each do |header|
@@ -31,7 +29,7 @@ class WebhooksController < ApplicationController
 
  def verify_event_type!
    type = request.headers["HTTP_X_GITHUB_EVENT"]
-   return if type == "create" or type == "ping"
+   return if type == "create" or type == "ping" or type == "branch_protection_rule" or type == "issues"
    error("unallowed event type: #{type}")
  end
 
@@ -59,7 +57,7 @@ class WebhooksController < ApplicationController
  end
 
  def create_issue_for_branch_protection
-   octokit.create_issue(repo, title, body = 'Branch protection created', options = {})
+   octokit.create_issue(repo, 'Branch protection created', body = 'Branch protection created #jennyoughibm', options = {})
  end
 
  def repo
