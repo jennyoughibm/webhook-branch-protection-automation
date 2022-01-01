@@ -3,7 +3,7 @@
 # Starts a server for development purposes inside a docker container.
 
 # Set the RAILS_ENV if not currently set
-: ${RAILS_ENV:=production}
+: ${RAILS_ENV:=development}
 export RAILS_ENV
 
 APP_CONTAINER=$(DISABLE_SPRING=true docker run --rm -it -d -p 3000 -e DISABLE_SPRING --name branchprotection --mount type=bind,source="$(pwd)"/branchprotection,target=/data/apps/branchprotection branchprotection:latest)

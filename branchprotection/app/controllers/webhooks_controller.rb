@@ -51,7 +51,7 @@ class WebhooksController < ApplicationController
  end
 
  def create_branch_protection
-   octokit.protect_branch(repo, 'master', options = {"required_status_checks":{"strict":true,"contexts":["contexts"],"checks":[{"context":"context","app_id":42}]},"enforce_admins":true,"required_pull_request_reviews":{"dismissal_restrictions":{"users":["users"],"teams":["teams"]},"dismiss_stale_reviews":true,"require_code_owner_reviews":true,"required_approving_review_count":42,"bypass_pull_request_allowances":{"users":["users"],"teams":["teams"]}},"restrictions":{"users":["users"],"teams":["teams"],"apps":["apps"]}})
+   octokit.protect_branch(repo, 'master', options = {"enforce_admins": true, "required_pull_request_reviews": {"dismiss_stale_reviews": true, "require_code_owner_reviews": true, "required_approving_review_count": 1}})
  end
 
  def notification_subscription
