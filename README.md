@@ -1,4 +1,4 @@
-# Webhooks & REST API
+# Webhooks & REST API Demo
 
 This project demostrate how to use Webhook and GitHub rest API to automate branch protection.
 
