@@ -17,6 +17,7 @@ branchprotection/db/*.sqlite3
 branchprotection/db/*.sqlite3-journal
 branchprotection/db/*.sqlite3-*
 /branchprotection/.env
+branchprotection/.env
 
 # Ignore all logfiles and tempfiles.
 /branchprotection/log/*
