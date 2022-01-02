@@ -7,8 +7,11 @@ class WebhooksController < ApplicationController
   def create
     create_branch_protection
     notification_subscription
-#     create_issue_for_branch_protection
-
+    create_issue_for_branch_protection
+#     Pry.config.input = STDIN
+#     Pry.config.output = STDOUT
+#
+#     binding.pry
     puts "Webhook successfully received!!!"
     WEBHOOK_HEADERS.each do |header|
       puts "#{header}: #{request.headers[header]}"
